@@ -23,11 +23,13 @@ npm install
 npm start
 ```
 
-To run the json-server run this command:
+To run the json-server run this command in a seperate terminal:
 
 ```bash
-json-server --watch db.json
+json-server --watch db.json -p 5555
 ```
+
+In order to fetch the data you'll make your fetches to `http://localhost:5555`.
 
 Some things have already been built for you such as the router provider (we'll go over this).
 
